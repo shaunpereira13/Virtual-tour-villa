@@ -1,17 +1,17 @@
-let pano1= new PANOLENS.ImagePanorama( 'ddd' );
-let pano2 = new PANOLENS.ImagePanorama('images/new/2.jpg');
-let pano3 = new PANOLENS.ImagePanorama('images/new/3.jpg');
-let pano4 = new PANOLENS.ImagePanorama('images/new/4.jpg');
-let pano5 = new PANOLENS.ImagePanorama('images/new/5.jpg');
-let pano6 = new PANOLENS.ImagePanorama('images/new/6.jpg');
-let pano7 = new PANOLENS.ImagePanorama('images/new/7.jpg');
-let pano8 = new PANOLENS.ImagePanorama('images/new/8.jpg');
-let pano9 = new PANOLENS.ImagePanorama('images/new/9.jpg');
-let pano10 = new PANOLENS.ImagePanorama('images/new/10.jpg');
-let pano11 = new PANOLENS.ImagePanorama('images/new/11.jpg');
-let pano12 = new PANOLENS.ImagePanorama('images/new/12.jpg');
-let pano13 = new PANOLENS.ImagePanorama('images/new/13.jpg');
-let pano14 = new PANOLENS.ImagePanorama('images/new/14.jpg');
+let pano1= new PANOLENS.ImagePanorama( 'https://res.cloudinary.com/djc9bjqfg/image/upload/v1706685730/villa%20tour/1_ahekxe.jpg' );
+let pano2 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706690838/2_ktv3qq.jpg');
+let pano3 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706692270/3_rkr7rb.jpg');
+let pano4 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706685727/villa%20tour/4_jikq30.jpg');
+let pano5 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706692265/5_e4ojio.jpg');
+let pano6 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706692258/6_vihrwe.jpg');
+let pano7 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706692246/7_opduyr.jpg');
+let pano8 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706685693/villa%20tour/8_hkeher.jpg');
+let pano9 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706692274/9_zhvta9.jpg');
+let pano10 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706692275/10_yp4xh4.jpg');
+let pano11 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706692280/11_cgsbrs.jpg');
+let pano12 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706685736/villa%20tour/12_vhtce0.jpg');
+let pano13 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706692280/13_qwikfu.jpg');
+let pano14 = new PANOLENS.ImagePanorama('https://res.cloudinary.com/djc9bjqfg/image/upload/v1706692287/14_vix5nx.jpg');
 
 let imageContainer = document.querySelector('.pan1')
 
