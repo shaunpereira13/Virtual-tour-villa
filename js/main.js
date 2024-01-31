@@ -1,4 +1,4 @@
-let pano1= new PANOLENS.ImagePanorama( 'https://res.cloudinary.com/djc9bjqfg/image/upload/v1706685730/villa%20tour/1_ahekxe.jpg' );
+let pano1= new PANOLENS.ImagePanorama( 'images/new/1.jpg' );
 let pano2 = new PANOLENS.ImagePanorama('images/new/2.jpg');
 let pano3 = new PANOLENS.ImagePanorama('images/new/3.jpg');
 let pano4 = new PANOLENS.ImagePanorama('images/new/4.jpg');
