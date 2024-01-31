@@ -57,21 +57,21 @@ const viewer = new PANOLENS.Viewer({
 
   container: imageContainer,
   autoRotate: true,
-  autoRotateSpeed: 1,
+  autoRotateSpeed: 0.5,
   controlBar: true,
 
-   controlButtons: ['fullscreen','setting','video'],            // Buttons array in the control bar. Default to ['fullscreen', 'setting', 'video']
-   autoHideControlBar: false,        // Auto hide control bar
-  autoHideInfospot: true,            // Auto hide infospots
-   horizontalView: true,            // Allow only horizontal camera control
-   cameraFov: 90,                // Camera field of view in degree
-  reverseDragging: false,            // Reverse orbit control direction
-  enableReticle: false,            // Enable reticle for mouseless interaction
-  dwellTime: 1500,            // Dwell time for reticle selection in millisecond
-  autoReticleSelect: true,        // Auto select a clickable target after dwellTime
-  viewIndicator: false,            // Adds an angle view indicator in upper left corner
-  indicatorSize: 30,            // Size of View Indicator
-  output: 'console'  
+  controlButtons: ['fullscreen','setting','video'],            // Buttons array in the control bar. Default to ['fullscreen', 'setting', 'video']
+  autoHideControlBar: false,        // Auto hide control bar
+  autoHideInfospot: false,            // Auto hide infospots
+  horizontalView: false,            // Allow only horizontal camera control
+  cameraFov: 70,                // Camera field of view in degree
+  // reverseDragging: false,            // Reverse orbit control direction
+  // enableReticle: false,            // Enable reticle for mouseless interaction
+  // dwellTime: 1500,            // Dwell time for reticle selection in millisecond
+  // autoReticleSelect: true,        // Auto select a clickable target after dwellTime
+  // viewIndicator: false,            // Adds an angle view indicator in upper left corner
+  // indicatorSize: 300,            // Size of View Indicator
+  // output: 'console'  
 });
 
 
